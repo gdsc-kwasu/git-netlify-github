@@ -12,7 +12,7 @@ body {
 header {
   height: 70px;
   width: 100%;
-  background: hotpink;
+  background: rgb(36, 36, 133);
   color: #fff;
 }
 
@@ -34,4 +34,16 @@ header p {
 
 #root p {
   padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  #root {
+    width: 100%;
+    margin: 20px 0px;
+  }
+
+  #root h1 {
+    padding: 0;
+    width: 100%;
+  }
 }
